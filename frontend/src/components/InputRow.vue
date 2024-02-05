@@ -4,7 +4,7 @@
       <input
         v-model="localItem.acronym"
         @blur="handleBlur"
-        placeholder="Acrônimo"
+        placeholder="Acronyme"
         class="form-control"
       />
     </div>
@@ -12,14 +12,14 @@
       <input
         v-model="localItem.code"
         @blur="handleBlur"
-        placeholder="Código"
+        placeholder="Code"
         class="form-control"
       />
     </div>
     <div class="col">
       <input
         v-model="localItem.concentration"
-        placeholder="Concentração"
+        placeholder="Concentration"
         class="form-control"
       />
     </div>

@@ -1,5 +1,7 @@
 <template>
-  <div id="app" class="container mt-4">
+  <div id="app" class="container mt-4" style="text-align: center">
+    <h1>Système de prédiction de concentration des matériaux cosmétiques</h1>
+    <br /><br /><br />
     <InputRow
       v-for="(item, index) in items"
       :key="index"
@@ -58,7 +60,10 @@ export default {
           }
         })
         .catch((error) => {
-          console.error("Erro ao obter concentração:", error);
+          console.error(
+            "Erreur lors de l'obtention de la concentration:",
+            error
+          );
         });
     },
     addRow() {
