@@ -56,7 +56,7 @@ Assurez-vous d'avoir Docker et Docker Compose installés sur votre système.
 
 2. Exécutez la commande suivante pour démarrer les services :
    ```bash
-   docker-compose up --build
+   docker-compose up -d
    ```
 
 Cela construira les images Docker et lancera les conteneurs pour chaque service.
